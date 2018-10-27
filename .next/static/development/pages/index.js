@@ -9967,6 +9967,7 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/p/".concat(props.id),
     href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
@@ -10002,6 +10003,7 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "hello-nextjs",
     title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
@@ -10009,6 +10011,7 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "learn-nextjs",
     title: "Learning Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
@@ -10016,6 +10019,7 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "deploy-nextjs",
     title: "Deploy apps with Zeit",
     __source: {
       fileName: _jsxFileName,
@@ -10046,7 +10050,7 @@ var PostLink = function PostLink(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -10071,5 +10075,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
