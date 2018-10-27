@@ -8,7 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "next buil"
+    "start-local": "next start",
+    "heroku-postbuild": "next build"
   },
   "repository": {
     "type": "git",
