@@ -1,10 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
+import Header from "../components/header"
 
 export default function Home() {
     return (
         <div>
-        <p>Home | Contact | About</p>
-    <h1 style={{ color: `purple` }}>apps.qvidahl.no</h1>
+        <Link to="/contact/">Contact</Link>
+    <Header headerText="Apps by Qvidahl"/>
     </div>
     );
 }

@@ -1,6 +1,5 @@
 # Build output
-dist
-.next
+public
 .vscode
 .DS_Store
 
