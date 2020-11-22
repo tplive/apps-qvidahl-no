@@ -10,19 +10,9 @@ export default function Home() {
         <Link to="/contact/">Contact</Link>
         <Header headerText="Apps by Qvidahl"/>
         <AppCard
-            appName="Conference Call Bingo"
-            appIcon="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-            longDesc="Conference Call Bingo is what you play when you get a lot of conference call clichès going on..."
-            />
-        <AppCard
             appName="Selbu-whist"
-            appIcon="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+            appIcon="/images/selbu-whist-icon.png"
             longDesc="Selbu-whist is a fun card game for two to five players"
-        />
-        <AppCard
-            appName="Image-generating API"
-            appIcon="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-            longDesc="This API will generate a background image for use in conference calls. Dynamic text."
         />
     </Container>
     );
