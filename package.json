@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tplive/apps-qvidahl-no#readme",
   "dependencies": {
-    "gatsby": "^2.22.15",
+    "gatsby": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
